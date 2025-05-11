@@ -1,5 +1,5 @@
 class ChatbotWidget {
-    constructor(serverUrl = 'http://127.0.0.1:5000/chat') {
+    constructor(serverUrl = 'https://smellofluxury-chatbot.onrender.com/chat') {
         this.serverUrl = serverUrl;
         this.isOpen = false;
         this.messages = [];
